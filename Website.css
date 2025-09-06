@@ -1,0 +1,4 @@
+h1.Boxed {position: absolute; top:0; left:0; background-color: rgb(58, 36, 101); width: 39em;  
+     padding: 1.5%; color: white; font-family: Calibri;}
+
+h1.Heading-Output {position: absolute; bottom:2; left:0; background-color:rgb(52, 83, 128); width: 39em; padding: 0.5%; color:blanchedalmond; font-family: Calibri;} 
