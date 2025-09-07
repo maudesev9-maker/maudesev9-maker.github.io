@@ -4,6 +4,13 @@ h1.Boxed {position: absolute; top:0; left:0; background-color: rgb(58, 36, 101);
 h1.Heading-Output {position: absolute; bottom:2; left:0; background-color:rgb(52, 83, 128); width: 39em; 
      padding: 1.5%; color:rgb(205, 246, 255); font-family: Calibri;} 
 
+
+body {border-style: solid;}
      body {background-image: linear-gradient(to bottom, #c7fce4, #bdf0ec, #a1d5f7, #748dfc);}
 
-     h3.Topic-Box {text-shadow: 0px 0px 3px rgb(6, 0, 0); text-shadow: 0px 0px 6px #0b373a; font-family:Calibri; font-size: x-large;}
+    h3.Topic-Box {text-shadow: 0px 0px 3px rgb(6, 0, 0); text-shadow: 0px 0px 6px #0b373a; font-family:Calibri; font-size: x-large;}
+
+    ul.Listing {font-family:Calibri; font-size: x-large; background-color: rgb(135, 235, 227);}
+     ul.Listing {font-family:Calibri; font-size: x-large;}
+      ul.Listing {font-family:Calibri; font-size: x-large;}
+       ul.Listing {font-family:Calibri; font-size: x-large;}
