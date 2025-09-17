@@ -10,7 +10,7 @@ section.Output4 {position: absolute; right: -0.5%; bottom:15%; font-family: Cali
      h2.Title {position: absolute; bottom: -44%; left:10px; background-color: #3859bc; text-align: justify; text-align: center; line-height: 290px; width:49%; height:51.6%; font-family:Lucida Sans; color: #c2cef2; font-size: xx-large;}
 
 li > a:hover {text-shadow: 1px 2px 4px #14ff7e;}
-     section.Intro {position: absolute; bottom: -190%; left:0;}
+     section.Intro {position: absolute; bottom: -195%; left:0;}
 
 h2#Introduction {position:absolute; top: -30px; left:0; width:100%; padding:0.5%; padding-right:0.5%; background-color: #495981; color:aliceblue; font-family: Lucida Sans; font-size: xx-large;}
    p#Introtext {font-family: Calibri; color: #303a55; font-size: medium;}
@@ -24,6 +24,8 @@ h2#Introduction {position:absolute; top: -30px; left:0; width:100%; padding:0.5%
       div.List4 {background-color: #edf1ff; border: 1px solid rgb(100, 145, 222); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
 
       ul#Colorlist {color: #303a55; font-family: Calibri;}
-section.Members {position: absolute; bottom: -230%; left:0;}
+section.Members {position: absolute; bottom: -270%; left:0;}
+      h2#GroupMembers {color: #304b55; font-family: Lucida Sans; border: 1px solid rgb(100, 222, 194); padding-right: 1%; border-width: 1px 1px 1px 25px; width: 100%;}
+      ul.memberlist {background-color:#b5ecce;text-align: left; font-family: Calibri; font-size: large; color: #303a55; line-height: 50px; font-size: larger; border: 1px solid rgb(95, 132, 217); border-width: 1px 1px 1px 30px; padding: 0.5%; margin-right: -35%;}
 section.EG2 {position: absolute; bottom: -310%; left: 0;}
 
