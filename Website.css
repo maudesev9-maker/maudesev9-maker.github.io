@@ -1,18 +1,29 @@
 h1.Title {position: absolute; width: 100%; top: 0; left: 0; background-color: rgb(205, 255, 220); padding: 0.7%; padding-right: 0.15%; font-family:Lucida Sans; font-size: xx-large; color: #3c496a;}
-body {background-color: rgb(230, 240, 250);}
+     body {background-color: rgb(251, 253, 255);}
+     html, body {width:100%; height:100%; margin:0; padding:0;}
 
 section.Outputs {position: absolute; right: 74.5%; bottom:15%; font-family: Calibri; background-color: #cdfcff; padding: 0.1%; padding-right: 0.15%; color: #495981;}
 section.Output2 {position: absolute; right: 49.5%; bottom:15%; font-family: Calibri; background-color: #b9e9fb; padding: 0.1%; padding-right: 0.15%; color: #495981;}
 section.Output3 {position: absolute; right: 24.5%; bottom:15%; font-family: Calibri; background-color: #aed5fc; padding: 0.1%; padding-right: 0.15%; color: #495981;}
 section.Output4 {position: absolute; right: -0.5%; bottom:15%; font-family: Calibri; background-color: #a6b9ff; padding: 0.1%; padding-right: 0.15%; color: #495981;}
-div.table-of-contents {position: absolute; bottom: -39.5%; left:640px; padding: 5px; padding-top:10px; padding-right: 100px; border: 1px solid #495981; border-right: 20%; font-family: Calibri; font-size: x-large;}
-h2.Title {position: absolute; bottom: -44%; left:10px; background-color: #3859bc; text-align: justify; text-align: center; line-height: 290px; width:49%; height:51.6%; font-family:Lucida Sans; color: #c2cef2; font-size: xx-large;}
+   div.table-of-contents {position: absolute; bottom: -39.5%; left:640px; padding: 5px; padding-top:10px; padding-right: 100px; border: 1px solid #495981; border-right: 20%; font-family: Calibri; font-size: x-large;}
+     h2.Title {position: absolute; bottom: -44%; left:10px; background-color: #3859bc; text-align: justify; text-align: center; line-height: 290px; width:49%; height:51.6%; font-family:Lucida Sans; color: #c2cef2; font-size: xx-large;}
 
 li > a:hover {text-shadow: 1px 2px 4px #14ff7e;}
-section.Intro {position: absolute; bottom: -75%; left:0;}
+     section.Intro {position: absolute; bottom: -190%; left:0;}
 
-h2#Introduction {position:absolute; top: -30px; left:0; width:100%; padding-right:14%; background-color: #495981; color:aliceblue; font-family: Lucida Sans; font-size: xx-large;}
+h2#Introduction {position:absolute; top: -30px; left:0; width:100%; padding:0.5%; padding-right:0.5%; background-color: #495981; color:aliceblue; font-family: Lucida Sans; font-size: xx-large;}
+   p#Introtext {font-family: Calibri; color: #303a55; font-size: medium;}
+   h4#heading1 {font-family: Lucida Sans; color: #0db6c2;}
+   h4#heading2 {font-family: Lucida Sans; color: #0d9ec2;}
+   h4#heading3 {font-family: Lucida Sans; color: #0d8cc2}
+   h4#heading4 {font-family: Lucida Sans; color: #0d68c2}
+      div.List1 {background-color: #f8fefd; border: 1px solid rgb(100, 222, 200); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
+      div.List2 {background-color: rgb(243, 250, 252); border: 1px solid rgb(100, 204, 222); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
+      div.List3 {background-color: #f2f5fe; border: 1px solid rgb(100, 175, 222); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
+      div.List4 {background-color: #edf1ff; border: 1px solid rgb(100, 145, 222); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
 
-section.Members {position: absolute; bottom: -150%; left:0;}
-section.EG2 {position: absolute; bottom: -250%; left: 0;}
+      ul#Colorlist {color: #303a55; font-family: Calibri;}
+section.Members {position: absolute; bottom: -230%; left:0;}
+section.EG2 {position: absolute; bottom: -310%; left: 0;}
 
