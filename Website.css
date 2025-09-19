@@ -1,36 +1,31 @@
-h1.Title {position: absolute; width: 100%; top: 0; left: 0; background-color: rgb(205, 255, 220); padding: 0.7%; padding-right: 0.15%; font-family:Lucida Sans; font-size: xx-large; color: #3c496a;}
-     body {background-color: rgb(251, 253, 255);}
-     html, body {width:100%; height:100%; margin:0; padding:0;}
+h1.Title {position:absolute; z-index: 1; top:0; left:0; color: white; font-family: Lucida Sans; 
+  background-color: #65aea3; width: 100%; height: 40px; padding: 5px;}
 
-section.Outputs {position: absolute; right: 74.5%; bottom:15%; font-family: Calibri; background-color: #cdfcff; padding: 0.1%; padding-right: 0.15%; color: #495981;}
-section.Output2 {position: absolute; right: 49.5%; bottom:15%; font-family: Calibri; background-color: #b9e9fb; padding: 0.1%; padding-right: 0.15%; color: #495981;}
-section.Output3 {position: absolute; right: 24.5%; bottom:15%; font-family: Calibri; background-color: #aed5fc; padding: 0.1%; padding-right: 0.15%; color: #495981;}
-section.Output4 {position: absolute; right: -0.5%; bottom:15%; font-family: Calibri; background-color: #a6b9ff; padding: 0.1%; padding-right: 0.15%; color: #495981;}
-   div.table-of-contents {position: absolute; bottom: -44%; left:640px; padding: 5px; padding-top:5px; padding-right: 100px; border: 1px solid #495981; border-right: 100%; width: 40%; height:55%; font-family: Calibri; font-size: x-large;}
-     h2.Title {position: absolute; bottom: -48.5%; left:10px; background-color: #3859bc; text-align: justify; text-align: center; line-height: 290px; width:49%; height:57.6%; font-family:Lucida Sans; color: #c2cef2; font-size: xx-large;}
+button#table-of-contents {position:absolute; z-index: 2; top:4.8%; right: 50%; color:white ;background-color: #65aea3;
+border:1px solid #def9fa;
+padding: 8px 13px;}
 
-li > a:hover {text-shadow: 1px 2px 4px #14ff7e;}
-     section.Intro {position: absolute; bottom: -200%; left:0;}
+.hidden-box {
+  position:absolute;
+  z-index:3;
+  display: none; /* Initially hide the box */
+  width: 600px;
+  height: 280px;
+  border: 2px solid #65aea3;
+  border-radius: 10px;
+  padding: 1px 20px 20px 20px;
+  background-color: #d7fafc;
+  margin-top: 60px;
+  font-size: larger;
+  font-family: Calibri;
+}
 
-h2#Introduction {position:absolute; top: -30px; left:0; width:100%; padding:0.5%; padding-right:0.5%; background-color: #495981; color:aliceblue; font-family: Lucida Sans; font-size: xx-large;}
-   p#Introtext {font-family: Calibri; color: #303a55; font-size: medium;}
-   h4#heading1 {font-family: Lucida Sans; color: #0db6c2;}
-   h4#heading2 {font-family: Lucida Sans; color: #0d9ec2;}
-   h4#heading3 {font-family: Lucida Sans; color: #0d8cc2}
-   h4#heading4 {font-family: Lucida Sans; color: #0d68c2}
-      div.List1 {background-color: #f8fefd; border: 1px solid rgb(100, 222, 200); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
-      div.List2 {background-color: rgb(243, 250, 252); border: 1px solid rgb(100, 204, 222); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
-      div.List3 {background-color: #f2f5fe; border: 1px solid rgb(100, 175, 222); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
-      div.List4 {background-color: #edf1ff; border: 1px solid rgb(100, 145, 222); padding: 0.5%; border-width: 1px 1px 1px 25px; margin-right: 50%;}
+.visible-box {
+  display: block; /* Show the box when this class is applied */
+}
 
-      ul#Colorlist {color: #303a55; font-family: Calibri;}
-section.Members {position: absolute; bottom: -270%; left:0;}
-      h2#GroupMembers {color: #304b55; font-family: Lucida Sans; border: 1px solid rgb(100, 222, 194); padding-right: 1%; border-width: 1px 1px 1px 25px; width: 100%;}
-      ul.memberlist {background-color:#b5ecce;text-align: left; font-family: Calibri; font-size: large; color: #303a55; line-height: 50px; font-size: larger; border: 1px solid rgb(95, 132, 217); border-width: 1px 1px 1px 30px; padding: 0.5%; margin-right: -30%;}
-section.EG2{position: absolute; bottom: -310%; left: 0;}
-     h2#ICT {font-family: Lucida Sans; color: #0db6c2;}
-section.EG3-4{position: absolute; bottom: -390%; left: 0;}
-section.EG5-6{position: absolute; bottom: -480%; left: 0;}
-section.EG7{position: absolute; bottom: -570%; left: 0;}
+section.Intro {position:absolute; top:10%; left:0;}
 
- 
+section.Members {position:absolute; top:140%; left:0;}
+
+div.Whole {position:absolute; top:180%; left:0;}
