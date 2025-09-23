@@ -1,6 +1,7 @@
 h1.Title {position:absolute; z-index: 1; top:0; left:0; color: white; font-family: Lucida Sans; 
   background-color: #6573ae; width: 99.2%; height: 40px; padding: 7px;}
 
+body {background-color: #eef9fc;}
 button#table-of-contents {position:absolute; z-index: 2; top:4.8%; right: 30%; color:white ;background-color: #585b9a;
 border:1px solid #def9fa;
 padding: 8px 13px;}
@@ -37,7 +38,7 @@ padding: 8px 13px;}
   display: none; /* Initially hide the box */
   width: 180px;
   height: 140px;
-  border: 2px solid #65aea3;
+  border: 2px solid #4a4a84;
   border-radius: 1px;
   padding: 5px 20px 20px 0px;
   background-color: #d7fafc;
@@ -60,3 +61,34 @@ section.Intro {position:absolute; top:15%; left:0;}
 section.Members {position:absolute; top:160%; left:0;}
 
 div.Whole {position:absolute; top:200%; left:0;}
+ul#Colorlist {font-family: Lucida Sans; color: #3a4daf;}
+div.List1 {border: 1px solid #414174; 
+border-width: 1px 1px 1px 20px;
+width: 46%;
+background-color: #d8d8fd;}
+h4#heading1 {font-family: Lucida Sans; font-size: large; color: #6566ae;}
+div.List2 {border: 1px solid #4e4e89; 
+border-width: 1px 1px 1px 20px;
+width: 46%;
+background-color: #e0e0fd;}
+h4#heading2 {font-family: Lucida Sans; font-size: large; color: #6566ae;}
+div.List3 {border: 1px solid #5d5da4; 
+border-width: 1px 1px 1px 20px;
+width: 46%;
+background-color: #e2e2fd;}
+h4#heading3 {font-family: Lucida Sans; font-size: large; color: #6566ae;}
+div.List4 {border: 1px solid #7676ce; 
+border-width: 1px 1px 1px 20px;
+width: 46%;
+background-color: #ebebfc;}
+h4#heading4 {font-family: Lucida Sans; font-size: large; color: #6566ae;}
+h2#Introduction {font-family: Lucida Sans; font-size: larger; color: #2b3a83;}
+p#Introtext {font-family: Calibri; font-size: medium; color: #414174;}
+
+ul.memberlist {font-family: Calibri; font-size: large; color: #38395f;}
+h2#GroupMembers {font-family: Lucida Sans; font-size: larger; color: #3a4daf;}
+section.EG2 {font-family: 'Lucida Sans', 'Calibri'; color: #2b3a83;}
+section.EG3-4 {font-family: Lucida Sans, Calibri; color: #38395f;}
+
+ul.Key-Points {border: 1px solid #2b3a83; width: 30%;
+border-width: 1px 1px 1px 15px;}
